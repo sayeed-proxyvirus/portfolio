@@ -22,10 +22,7 @@
     <script>
       // Typing Animation
       function typeWriter() {
-        const texts = [
-          "Web Developer and AI Enthusiast"
-          
-        ];
+        const texts = ["Web Developer and AI Enthusiast"];
 
         let textIndex = 0;
         let charIndex = 0;
@@ -571,6 +568,22 @@
           margin-bottom: 0;
         }
       }
+      
+      
+
+      .carousel-caption{
+        color: #4682a9;
+        
+        font-family: 'Barlow' sans-serif;
+      }
+
+      .carousel-control-prev{
+        background-color:  #749bc2;
+      }
+      .carousel-control-next{
+        background-color:  #749bc2;
+      }
+      
     </style>
     <title>Sayeed Amin Portfolio</title>
   </head>
@@ -701,6 +714,150 @@
               </div>
             </div>
           </div>
+        </div>
+        <div class="row">
+          <div class="row mt-5 mb-5  justify-content-center">
+          <div class="col-lg-10 col-md-11">
+            <div id="carouselExampleCaptions" class="carousel slide custom-carousel">
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="3"
+                  aria-label="Slide 4"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="4"
+                  aria-label="Slide 5"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="5"
+                  aria-label="Slide 6"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="6"
+                  aria-label="Slide 7"
+                ></button>
+              </div>
+              
+              <div class="carousel-inner height: 440px">
+                <div class="carousel-item">
+                  <img src="imgs\HM.jpg" class="d-block w-100 h-70" alt="home" />
+                  <div class="carousel-caption">
+                    <h3>Home Page</h3>
+                    <p>
+                      Frontend using React , React Hooks , Bootstrap , Axios
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="imgs\EmployeePG.jpg" class="d-block w-100 h-70" alt="..." />
+                  <div class="carousel-caption">
+                    <h3>Employee Management Page</h3>
+                    <p>
+                      Employee management Page online connection of database
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="imgs\WorkerPG.JPG" class="d-block w-100 h-70" alt="..." />
+                  <div class="carousel-caption">
+                    <h3>Worker Management Page</h3>
+                    <p>
+                      Worker management Page online connection of database
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="imgs\WagesSLip.jpg" class="d-block w-100 h-70" alt="..." />
+                  <div class="carousel-caption">
+                    <h3>Wages Slip Management</h3>
+                    <p>
+                      Wages Slip management with report making and PDF extracting capabilities
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="imgs\EID Bonus.JPG" class="d-block w-100 h-70" alt="..." />
+                  <div class="carousel-caption">
+                    <h3>Bonus Slip Management</h3>
+                    <p>
+                      Eid Bonus Slip management with report making and PDF extracting capabilities
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="imgs\Report Generation.jpg" class="d-block w-100 h-70" alt="..." />
+                  <div class="carousel-caption">
+                    <h3>Report Generating</h3>
+                    <p>
+                      Report Generating Capabilities 
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item active">
+                  <img src="imgs\ASP API.jpg" class="d-block w-100 h-70" alt="asp" />
+                  <div class="carousel-caption">
+                    <h3>ASP Swagger Response</h3>
+                    <p>
+                      ASP backend for ERP project(using ASP.NET core , ADO.NET)
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
         </div>
       </div>
     </section>
